@@ -16,7 +16,7 @@ jobs:
         run: date
 
       - name: file creation
-        run: file
+        run: touch abc.txt
 
       - name: create and display a text file
         run:
